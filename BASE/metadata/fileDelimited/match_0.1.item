@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_7Ig1UMc_Ee2kQLBPC5PYKA" name="match" dataPackage="_7Ig1Ucc_Ee2kQLBPC5PYKA" Server="Localhost 127.0.0.1" FilePath="D:/Current/Training/Cprime/Fidelity 2023/Content/Course Content/13 Data Integration/labs/Match.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_7Ig1Ucc_Ee2kQLBPC5PYKA" name="default" dataManager="_7Ig1UMc_Ee2kQLBPC5PYKA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7Ig1Usc_Ee2kQLBPC5PYKA" id="_revEEMc_Ee2kQLBPC5PYKA" label="Match">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1U8c_Ee2kQLBPC5PYKA" label="Match_SK" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1VMc_Ee2kQLBPC5PYKA" label="match_id" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Vcc_Ee2kQLBPC5PYKA" label="Team1" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Vsc_Ee2kQLBPC5PYKA" label="Team2" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1V8c_Ee2kQLBPC5PYKA" label="match_date" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1WMc_Ee2kQLBPC5PYKA" label="Season_Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Wcc_Ee2kQLBPC5PYKA" label="Venue_Name" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Wsc_Ee2kQLBPC5PYKA" label="City_Name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1W8c_Ee2kQLBPC5PYKA" label="Country_Name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1XMc_Ee2kQLBPC5PYKA" label="Toss_Winner" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Xcc_Ee2kQLBPC5PYKA" label="match_winner" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Xsc_Ee2kQLBPC5PYKA" label="Toss_Name" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1X8c_Ee2kQLBPC5PYKA" label="Win_Type" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1YMc_Ee2kQLBPC5PYKA" label="Outcome_Type" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Ycc_Ee2kQLBPC5PYKA" label="ManOfMach" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Ysc_Ee2kQLBPC5PYKA" label="Win_Margin" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7Ig1Y8c_Ee2kQLBPC5PYKA" label="Country_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

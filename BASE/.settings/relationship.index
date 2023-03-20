@@ -21,4 +21,111 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_SMETsMdEEe2kQLBPC5PYKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA - Match",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA - Team",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_VSvBUMdSEe2IV8Qks6O1iQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA - Match",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA - Team",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Z9v4kMdKEe2kQLBPC5PYKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9PGfoMdFEe2kQLBPC5PYKA - Player_match",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__PIh4Mc-Ee2EQImTBrIqJA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA - Match",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA - Team",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mPDEYMdFEe2kQLBPC5PYKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7IUoEMc_Ee2kQLBPC5PYKA - Match",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_9PGfoMdFEe2kQLBPC5PYKA - Player_match",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_EJQdEMdAEe2kQLBPC5PYKA - Team",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]

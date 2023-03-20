@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Hbmv4MdGEe2kQLBPC5PYKA" name="Player" dataPackage="_Hbmv4cdGEe2kQLBPC5PYKA" Server="Localhost 127.0.0.1" FilePath="D:/Current/Training/Cprime/Fidelity 2023/Content/Course Content/13 Data Integration/labs/Player.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Hbmv4cdGEe2kQLBPC5PYKA" name="default" dataManager="_Hbmv4MdGEe2kQLBPC5PYKA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Hbmv4sdGEe2kQLBPC5PYKA" id="_-KQgUMdFEe2kQLBPC5PYKA" label="Player">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv48dGEe2kQLBPC5PYKA" label="PLAYER_SK" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv5MdGEe2kQLBPC5PYKA" label="Player_Id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv5cdGEe2kQLBPC5PYKA" label="Player_Name" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv5sdGEe2kQLBPC5PYKA" label="DOB" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv58dGEe2kQLBPC5PYKA" label="Batting_hand" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv6MdGEe2kQLBPC5PYKA" label="Bowling_skill" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Hbmv6cdGEe2kQLBPC5PYKA" label="Country_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

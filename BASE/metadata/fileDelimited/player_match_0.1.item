@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9PGfocdFEe2kQLBPC5PYKA" name="player_match" dataPackage="_9PHGsMdFEe2kQLBPC5PYKA" Server="Localhost 127.0.0.1" FilePath="D:/Current/Training/Cprime/Fidelity 2023/Content/Course Content/13 Data Integration/labs/Player_match.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9PHGsMdFEe2kQLBPC5PYKA" name="default" dataManager="_9PGfocdFEe2kQLBPC5PYKA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9PHGscdFEe2kQLBPC5PYKA" id="_qIL5IMdFEe2kQLBPC5PYKA" label="Player_match">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGssdFEe2kQLBPC5PYKA" label="Player_match_SK" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGs8dFEe2kQLBPC5PYKA" label="PlayerMatch_key" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGtMdFEe2kQLBPC5PYKA" label="Match_Id" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGtcdFEe2kQLBPC5PYKA" label="Player_Id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGtsdFEe2kQLBPC5PYKA" label="Player_Name" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGt8dFEe2kQLBPC5PYKA" label="DOB" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGuMdFEe2kQLBPC5PYKA" label="Batting_hand" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGucdFEe2kQLBPC5PYKA" label="Bowling_skill" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGusdFEe2kQLBPC5PYKA" label="Country_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGu8dFEe2kQLBPC5PYKA" label="Role_Desc" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGvMdFEe2kQLBPC5PYKA" label="Player_team" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGvcdFEe2kQLBPC5PYKA" label="Opposit_Team" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGvsdFEe2kQLBPC5PYKA" label="Season_year" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGv8dFEe2kQLBPC5PYKA" label="is_manofThematch" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGwMdFEe2kQLBPC5PYKA" label="Age_As_on_match" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGwcdFEe2kQLBPC5PYKA" label="IsPlayers_Team_won" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGwsdFEe2kQLBPC5PYKA" label="Batting_Status" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGw8dFEe2kQLBPC5PYKA" label="Bowling_Status" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGxMdFEe2kQLBPC5PYKA" label="Player_Captain" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGxcdFEe2kQLBPC5PYKA" label="Opposit_captain" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGxsdFEe2kQLBPC5PYKA" label="Player_keeper" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9PHGx8dFEe2kQLBPC5PYKA" label="Opposit_keeper" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
